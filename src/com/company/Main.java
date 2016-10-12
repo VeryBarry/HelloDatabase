@@ -37,6 +37,7 @@ public class Main {
             double health = results.getDouble("health");
             boolean isAlive = results.getBoolean("is_alive");
             System.out.printf("%s %s %s %s %s\n", name, id, score, health, isAlive);
+
         }
     }
 }
